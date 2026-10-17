@@ -1,0 +1,54 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# Pyhton
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Pyhton
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node / Next.js
+node_modules
+.next/
+out/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Data & Seeds (Opsional)
+# backend/data/seeds/*.pdf
+
+disasterpulse_rag_prd_architecture_blueprint.md
