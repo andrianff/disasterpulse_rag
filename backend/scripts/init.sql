@@ -11,7 +11,8 @@ CREATE TABLE IF NOT EXISTS documents (
     file_size_bytes BIGINT NOT NULL,
     total_pages INT DEFAULT 0,
     status VARCHAR(30) DEFAULT 'processing', -- 'processing', 'indexed', 'failed'
-    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
 
 -- 3. Document Chunks & Vector Store Table
